@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.comments-app-container {
+  height: 100vh;
+  padding: 10px;
+}
+.comments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.left-container {
+  text-align: left;
+}
+
+.heading {
+  font-size: 45px;
+  color: #1e293b;
+}
+.description {
+  font-size: 25px;
+  color: #475569;
+  margin-bottom: 10px;
+}
+.name-input {
+  border-style: solid;
+  border-color: #cbd2d9;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.comment-input {
+  border-style: solid;
+  border-color: #cbd2d9;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.submit-button {
+  color: #ffffff;
+  outline: none;
+  border-radius: 5px;
+  background-color: #0284c7;
+  padding: 10px;
+  border-width: 0px;
+}
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.comments-image {
+  width: 90%;
+  height: auto;
+}
+.comment-line {
+  width: 80%;
+  border: 1px solid #dee0e3;
+}
+.comment-Items-main-container {
+  margin-left: 5em;
+  padding: 10px;
+}
+
+.count-comment {
+  text-align: center;
+  color: #ffffff;
+  background-color: #0284c7;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  margin-right: 4px;
+}
